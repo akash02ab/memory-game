@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background: url(./assets/bgPattern.png);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    font-family: sans-serif;
+}
+
+.board {
+    width: 18rem;
+    height: 18rem;
+    display: flex;
+    flex-flow: row wrap;
+    border: 1rem solid #3EB58D;
+    border-radius: 0.5rem;   
+}
+
+.box {
+    width: 4rem;
+    height: 4rem;
+    border: 1px solid;
+    position: relative;
+    background: #0C3939;
+    border: 2px solid #3EB58D;
+    border-radius: 1px;
+}
+
+.box-image {
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    background: #F6FCB4;
+}
+
+.correct {
+    background: #60DD8E;
+}
+
+.box-image > svg {
+    height: 100%;
+    width: 100%;
+}
+
+.hide {
+    opacity: 0;
+}
+
+.status {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.2em;
+}
+
+.status > button {
+    width: 8rem;
+    height: 3rem;
+    background: #0C3939;
+    color: #ffff;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1em;
+}
