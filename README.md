@@ -14,7 +14,7 @@ Game finished:
 - Gradient from [GradientHunt](https://gradienthunt.com/gradient/22202)
 
 ## Steps
-You need to break this project into steps and list them down here...
+This project is breakdown into steps and are listed down here...
 - The main component is **Game** which handles all the game logic such as moves, time, score, match, game-over, restart-game.
 - Inisde Game component there will be **Board** component which is 4 x 4 matrix.
 - Each cell of **Board** will be another component called **Box**.
